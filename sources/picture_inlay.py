@@ -2,7 +2,7 @@ from PIL import Image
 import math
 
 
-def inlay(path_large_img_src: str, path_small_img_src: str, path_img_dst: str):
+def inlay(path_large_img_src: str, path_small_img_src: str, path_img_dst: str) -> None:
 
     image_back = Image.open(path_large_img_src)  # Le fond
     image = Image.open(path_small_img_src)  # A ajouter !
