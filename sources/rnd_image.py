@@ -4,7 +4,7 @@ from PIL import Image
 import random
 
 
-def rnd_image(n: int, m: int, path_img_dst: str):
+def rnd_image(n: int, m: int, path_img_dst: str) -> None:
     random.seed(0)
 
     image = Image.new("RGB", (n, m))
