@@ -3,7 +3,7 @@
 from PIL import Image
 
 # convertir une image de couleur (path_img_src) en une image en nuance de gris (path_img_dst)
-def conv_to_grey(path_img_src: str, path_img_dst: str):
+def conv_to_grey(path_img_src: str, path_img_dst: str) -> None :
     im = Image.open(path_img_src)
     rgb_im = im.load()
 
