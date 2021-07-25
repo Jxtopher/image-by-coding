@@ -17,3 +17,7 @@ def rnd_image(n: int, m: int, path_img_dst: str) -> None:
                 random.randint(0, 255),
             )
     image.save(path_img_dst)
+
+
+if __name__ == "__main__":
+    rnd_image(500, 500, "ret_images/rnd_image.png")
