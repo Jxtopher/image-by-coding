@@ -35,8 +35,7 @@ if __name__ == "__main__":
         bar.next()
 
         current = new
-
-    # plt.axis("off")
+        
     fig = plt.figure(figsize=(20, 20))
     ax = fig.add_subplot(111)
     ax.scatter(x, y, s=[0.2], marker="o", color="#00BFFF")
