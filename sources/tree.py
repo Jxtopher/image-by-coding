@@ -4,11 +4,11 @@ import math
 
 
 def right(c: complex) -> complex:
-    return c + cmath.exp(complex(0, math.pi / 4))
+    return c + cmath.exp(complex(math.log(1), math.pi / 4))
 
 
 def left(c: complex) -> complex:
-    return c + cmath.exp(complex(0, 3 * math.pi / 4))
+    return c + cmath.exp(complex(math.log(1), 0))
 
 
 if __name__ == "__main__":
